@@ -14,13 +14,9 @@ source ~/perl5/perlbrew/etc/bashrc
 # Perl local::lib
 eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)"
 
-
 # Editor
 export VISUAL="atom -nw"
 export EDITOR="$VISUAL"
-
-# Bash
-# export HISTCONTROL=ignoreboth:erasedups
 
 # added by travis gem
 [ -f /Users/adamc/.travis/travis.sh ] && source /Users/adamc/.travis/travis.sh
@@ -32,5 +28,3 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="/usr/local/opt/openssl101/bin:$PATH"
 
 eval "$(direnv hook bash)"
-
-export PATH=~/bin:$PATH
