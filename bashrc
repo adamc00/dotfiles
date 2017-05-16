@@ -1,5 +1,3 @@
-export BASH_IT_CUSTOM=~/Development/dotfiles
-
 # Load keys from keychain into agent
 
 # { eval `ssh-agent`; ssh-add -A; } &>/dev/null
