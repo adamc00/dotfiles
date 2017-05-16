@@ -1,4 +1,4 @@
-export BASH_IT_CUSTOM=/Users/adamc/Development/dotfiles
+export BASH_IT_CUSTOM=~/Development/dotfiles
 
 # Load keys from keychain into agent
 
