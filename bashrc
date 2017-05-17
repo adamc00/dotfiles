@@ -28,3 +28,10 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="/usr/local/opt/openssl101/bin:$PATH"
 
 eval "$(direnv hook bash)"
+
+export PATH=~/bin:$PATH
+
+(
+  cd ~/Development/dotfiles
+  git pull > /dev/null
+)
