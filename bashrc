@@ -14,6 +14,10 @@ source ~/perl5/perlbrew/etc/bashrc
 # Perl local::lib
 eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)"
 
+# Vault
+
+export VAULT_ADDR=https://dns.fz.sdlocal.net:8200
+
 # Editor
 export VISUAL="atom -nw"
 export EDITOR="$VISUAL"
