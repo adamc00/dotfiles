@@ -33,4 +33,4 @@ export PATH="/usr/local/opt/openssl101/bin:$PATH"
 
 eval "$(direnv hook bash)"
 
-export PATH=~/bin:$PATH
+export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
