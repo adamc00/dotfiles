@@ -1,3 +1,5 @@
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # Load keys from keychain into agent
 
 # { eval `ssh-agent`; ssh-add -A; } &>/dev/null
@@ -29,8 +31,14 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
+export PATH="$PATH:$HOME/bin" # Add home bin PATH for local scripts
+
 export PATH="/usr/local/opt/openssl101/bin:$PATH"
 
 eval "$(direnv hook bash)"
 
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+
+export PATH="/usr/local/lib/balena-cli:$PATH"
+
+complete -C /usr/local/bin/mc mc

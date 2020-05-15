@@ -1,0 +1,3 @@
+[submodule "lambda-pure"]
+	path = lambda-pure
+	url = git@github.com:marszall87/lambda-pure.git
