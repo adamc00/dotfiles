@@ -33,4 +33,5 @@ export PATH="/usr/local/opt/openssl101/bin:$PATH"
 
 eval "$(direnv hook bash)"
 
-export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:/usr/local/bin:/Users/adamc/Development/flutter/bin:$PATH"
+
